@@ -8,6 +8,9 @@ Leon Stilwell  ( ls3223  )
 Michael Wang   ( mlw2167 )
 Saahil Jain    ( sj2675  )
 
+For a full summary of this project, please visit:
+http://www.cs.columbia.edu/~sedwards/classes/2017/4115-fall/reports/Genesis.pdf
+
 ------------------------------
 Usage Notes
 
@@ -20,10 +23,11 @@ Building
 
 Usage
  - Included is the bash script "LetThereBe.sh" which compiles a .god file
-   to an executable. This file should be used as a standalone compiler.  For
-   running tests, please refer to the previous section.
+   to an executable. This file should be used as a standalone compiler.
 
- - Please refer to our Language reference manual for further documentation, 
-   available here:
-
-     http://www.cs.columbia.edu/~sedwards/classes/2017/4115-fall/lrms/Genesis.pdf
+Tests
+  - Type "make rtest" to run basic language functionality tests
+  - Type "make test" to run Genesis-specific tests
+  - Type "make vtest" to run Genesis-specific visual tests
+  - Type "make tests" to run all non-graphics tests
+  - Type "./testall.sh <path_to_test>" to run a single test
